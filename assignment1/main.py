@@ -4,7 +4,8 @@ from itertools import combinations
 from sklearn.svm import l1_min_c
 
 df = []
-with open(r'C:\Users\gc949\Desktop\Assignment1\browsing.txt') as d:
+# with open(r'C:\Users\gc949\Desktop\Assignment1\browsing.txt') as d:
+with open(r'browsing.txt') as d:
     for line in d.readlines():
         data = line.split('\n\t')
         for string in data:
